@@ -27,19 +27,5 @@ body {background-color:#000; font-family: 'Allerta', arial, serif; margin:0; pad
 #footer p {color:#FFF; font-size:65%; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; text-align:center;}
 #footer a {color:#fff; text-decoration:none;}
 
-/* Slide show specific: */
-#slideshow { position:relative; height:232px; }
-#slideshow DIV { position:absolute; top:0; left:0; z-index:8; opacity:0.0; height: 232px; background-color: #FFF; }
-#slideshow DIV.active { z-index:10; opacity:1.0; }
-#slideshow DIV.last-active { z-index:9; }
-#slideshow DIV IMG { height: 232px; display: block; border: 0; margin-bottom: 10px; }
-
 /* Page Specific: */
-#content ul.sponsors {margin:0; padding:0; list-style-type:none; text-align:center;}
-#content ul.sponsors li {display:inline; margin:0 auto 10px auto;}
-
-#content fieldset {margin:15px;}
-#content fieldset ul {list-style-type:none;}
-#content fieldset p {clear:both;}
-#content fieldset p label {float:left; width:150px;}
-#content fieldset p input {float:left; }
+#content ul.sponsors {margin:0; padding:0; list-style-type:none; text-align: center;}
