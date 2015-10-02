@@ -12,12 +12,12 @@ body {background-color:#000; font-family: 'Allerta', arial, serif; margin:0; pad
 #headerimage {margin:0 0 20px 0;}
 
 #content {width:576px; padding:0 20px; margin:0 20px 0 0; float:left; font-family:Arial, Helvetica, sans-serif;}
-#content h1 {margin:0 -20px; padding:5px 20px; background-color:#e5ba33; font-size:18pt;}
+#content h1 {margin:0 -20px 10px -20px; padding:5px 20px; background-color:#e5ba33; font-size:18pt;}
 #content h2 {color:#8e6c00; font-size:17pt;}
 #content p, #rightcol p, #content li {margin-top:2px; padding-top:0; font-size:90%; line-height:150%;}
 
 #rightcol {width:282px; margin:0; padding:0; float:left; font-family:Arial, Helvetica, sans-serif;}
-#rightcol h2 {margin:0 -20px; padding:5px 20px; background-color:#e5ba33; font-size:15pt;}
+#rightcol h2 {margin:0 -20px 10px -20px; padding:5px 20px; background-color:#e5ba33; font-size:15pt;}
 #rightcol .item {background:#f2f2f2;  padding:0 20px 10px 20px; margin:0 0 20px 0;}
 
 #content a, #rightcol a {color:#8e6c00;}
