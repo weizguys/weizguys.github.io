@@ -32,3 +32,6 @@ ul.inline-list li {display:inline; }
 
 /* Page Specific: */
 #content ul.sponsors {margin:0; padding:0; list-style-type:none; text-align: center;}
+
+.recipies th {text-align: left; border-bottom:2px solid #ccc;}
+.recipies tr td {border-bottom:1px solid #ebebeb; padding: 5px 10px;}
