@@ -32,3 +32,9 @@ ul.inline-list li {display:inline; }
 
 /* Page Specific: */
 #content ul.sponsors {margin:0; padding:0; list-style-type:none; text-align: center;}
+
+.recipies th {text-align: left; border-bottom:2px solid #ccc; cursor:pointer}
+.recipies th.tablesorter-headerUnSorted .tablesorter-header-inner::before {content: '\2195 '}
+.recipies th.tablesorter-headerAsc .tablesorter-header-inner::before {content: '\2191 '}
+.recipies th.tablesorter-headerDesc .tablesorter-header-inner::before {content: '\2193 '}
+.recipies tr td {border-bottom:1px solid #ebebeb; padding: 5px 10px;}
