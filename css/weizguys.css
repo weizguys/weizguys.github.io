@@ -1,37 +1,66 @@
 /* CSS Document */
 
-body {background-color:#000; font-family: 'Allerta', arial, serif; margin:0; padding:0;}
+body {background-color:#000; margin:0; padding:0;}
 
-#container {width:960px; margin:auto;}
-#page {width:920px; float:left; background:#fff; padding:0 20px;}
+.page {
+    background-color:#fff;
+}
 
-ul.inline-list {margin: 0; padding:0; list-style-type: none;}
-ul.inline-list li {display:inline; }
- 
-#topnav ul {margin:15px 0; padding:0; list-style-type:none;}
-#topnav li {display:inline; padding:0 10px; margin:0 10px 0 0;}
-#topnav a {color:#000; text-decoration:none; text-transform:uppercase; font-size:15px; font-weight:normal;}
+.page a {
+    color:#8e6c00;
+}
 
-#headerimage {margin:0 0 20px 0;}
+.menu {
+    margin:10px 0;
+}
 
-#content {width:576px; padding:0 20px; margin:0 20px 0 0; float:left; font-family:Arial, Helvetica, sans-serif;}
-#content h1 {margin:0 -20px 10px -20px; padding:5px 20px; background-color:#e5ba33; font-size:18pt;}
-#content h2 {color:#8e6c00; font-size:17pt;}
-#content p, #rightcol p, #content li {margin-top:2px; padding-top:0; font-size:90%; line-height:150%;}
+.menu a {
+    color:#000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
-#rightcol {width:282px; margin:0; padding:0; float:left; font-family:Arial, Helvetica, sans-serif;}
-#rightcol h2 {margin:0 -20px 10px -20px; padding:5px 20px; background-color:#e5ba33; font-size:15pt;}
-#rightcol .item {background:#f2f2f2;  padding:0 20px 10px 20px; margin:0 0 20px 0;}
+.menu a:hover {
+    color:#E5BA33
+} 
 
-#content a, #rightcol a {color:#8e6c00;}
-#content a:hover, #rightcol a:hover {color:#e5ba33;}
+h1 {
+    background-color:#E5BA33;
+    font-size:1.5em;
+    padding:5px 15px;
+    margin: 10px 0;
+    }
 
-#footer {padding:0; margin:10px;}
-#footer p {color:#FFF; font-size:65%; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; text-align:center;}
-#footer a {color:#fff; text-decoration:none;}
+h2 {
+    font-size: 1.1em;
+    padding:5px 15px;
+    margin-top:10px;
+}
+
+.sidecol h2 {
+    margin:10px -20px 10px -20px; 
+    padding:5px 20px; 
+    background-color:#e5ba33; 
+}
+
+.item {background:#f2f2f2;  padding:0 20px 10px 20px; margin:0 0 20px 0;}
+
+
+.footer p {
+    color:#FFF; 
+    font-size:.8em;
+    text-align:center;
+    margin-top:5px;
+    }
+
+
+@media only screen and (max-width: 40em) {
+    .menu>li {
+        display:block;
+    }
+}
 
 /* Page Specific: */
-#content ul.sponsors {margin:0; padding:0; list-style-type:none; text-align: center;}
 
 .recipies th {text-align: left; border-bottom:2px solid #ccc; cursor:pointer}
 .recipies th.tablesorter-headerUnSorted .tablesorter-header-inner::before {content: '\2195 '}
