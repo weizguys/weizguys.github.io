@@ -3,15 +3,17 @@
 <head>
   <title>{{page.title}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css" rel="stylesheet" type="text/css" />
   <link href="/css/weizguys.css" rel="stylesheet" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css' />
 </head>
 <body>
-<div id="container">
-  <div id="header"><img src="/images/header.jpg" alt="Weiz Guys" /></div>
-  <div id="page">
-    <div id="topnav">
-      <ul>
+<div id="row">
+  <div id="small-12 columns"><img src="/images/header.jpg" alt="Weiz Guys" /></div>
+</div>
+<div class="row page">
+  <div class="small-12 columns">
+    <ul class="menu">
         <li><a href="/">Home</a></li>
         <li><a href="/recipes">Recipes</a></li>
         <li><a href="/revenge">Sweethearts Revenge!</a></li>
@@ -19,15 +21,18 @@
         <li><a href="https://groups.google.com/forum/#!forum/weiz-guys-homebrew-club">Google Group</a></li>
         <li><a href="/sponsors">Sponsors</a></li>
       </ul>
-    </div>
-    <div id="headerimage">
-      <div id="slideshow">
-        <img src="/images/photo.jpg" alt="Grains" width="919" height="232" />
-      </div>
-    </div>
-    <div id="content">{{ content }}</div>
-    <div id="rightcol">
-      <div class="item">
+  </div>
+
+  <div class="small-12 columns">
+    <img src="/images/photo.jpg" alt="Grains"  />
+  </div>
+  <div class="medium-8 columns">
+
+    {{ content }}
+
+  </div>
+  <div class="medium-4 columns">
+    <div class="item">
         <h2>Connect</h2>
         <ul>
           <li><a href="https://www.facebook.com/WeizGuys">Join our Facebook Page</a></li>
@@ -35,10 +40,12 @@
         </ul>
       </div>
       {% include resources.html %}
-    </div>
   </div>
-  <div id="footer">
-    <p>(C) 2015 Weizguys Homebrew Club, an AHA Member </p>
+</div>
+
+<div class="row footer">
+  <div class="small-12 columns">
+    <p>(C) 2016 Weizguys Homebrew Club, an AHA Member </p>
   </div>
 </div>
 
