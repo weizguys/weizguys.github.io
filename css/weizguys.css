@@ -10,6 +10,8 @@ body {background-color:#000; margin:0; padding:0;}
     color:#8e6c00;
 }
 
+.header .medium-3 {text-align: right;}
+
 .menu {
     margin:10px 0;
 }
@@ -37,6 +39,10 @@ h2 {
     margin-top:10px;
 }
 
+img.header-image {
+    width:100%;
+    height: auto;
+}
 .sidecol h2 {
     margin:10px -20px 10px -20px; 
     padding:5px 20px; 
