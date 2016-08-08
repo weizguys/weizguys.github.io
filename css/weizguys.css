@@ -10,6 +10,8 @@ body {background-color:#000; margin:0; padding:0;}
     color:#8e6c00;
 }
 
+.header .medium-3 {text-align: right;}
+
 .menu {
     margin:10px 0;
 }
