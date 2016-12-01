@@ -73,3 +73,7 @@ img.header-image {
 .recipies th.tablesorter-headerAsc .tablesorter-header-inner::before {content: '\2191 '}
 .recipies th.tablesorter-headerDesc .tablesorter-header-inner::before {content: '\2193 '}
 .recipies tr td {border-bottom:1px solid #ebebeb; padding: 5px 10px;}
+
+/* Overwrite */
+a.button {background-color:#fff; color:#000; border:1px solid #000;}
+a.button:hover {background-color: #E5BA33; color:#000}
