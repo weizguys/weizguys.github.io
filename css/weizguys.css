@@ -39,6 +39,10 @@ h2 {
     margin-top:10px;
 }
 
+p {
+    padding-left:15px;
+}
+
 img.header-image {
     width:100%;
     height: auto;
