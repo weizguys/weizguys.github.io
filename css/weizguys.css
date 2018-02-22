@@ -81,3 +81,9 @@ img.header-image {
 /* Overwrite */
 a.button {background-color:#fff; color:#000; border:1px solid #000;}
 a.button:hover {background-color: #E5BA33; color:#000}
+
+/* Results */
+.GroupHeader {
+    font-size:1.5em;
+    text-align: center;
+}
