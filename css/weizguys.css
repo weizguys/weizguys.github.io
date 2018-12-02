@@ -70,6 +70,18 @@ img.header-image {
     }
 }
 
+html, body, div {  
+}
+#Schedule { padding-left:15px }
+
+ul, small
+{
+	margin-bottom:1px
+}
+
+ul, li {}
+#Entry_Info { padding-left:15px }
+
 /* Page Specific: */
 
 .recipies th {text-align: left; border-bottom:2px solid #ccc; cursor:pointer}
