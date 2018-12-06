@@ -82,6 +82,10 @@ ul, small
 ul, li {}
 #Entry_Info { padding-left:15px }
 
+table#pro-am_t {
+    table-layout: fixed
+}
+
 /* Page Specific: */
 
 .recipies th {text-align: left; border-bottom:2px solid #ccc; cursor:pointer}
