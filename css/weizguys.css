@@ -86,6 +86,10 @@ table#pro-am_t {
     table-layout: fixed
 }
 
+table#sponsors {
+	table-layout: fixed
+}
+
 /* Page Specific: */
 
 .recipies th {text-align: left; border-bottom:2px solid #ccc; cursor:pointer}
